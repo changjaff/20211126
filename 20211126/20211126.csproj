@@ -67,12 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CompareValidator.aspx" />
     <Content Include="Global.asax" />
     <Content Include="RequiredField.aspx" />
     <Content Include="Web.config" />
     <Content Include="Wizard.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompareValidator.aspx.cs">
+      <DependentUpon>CompareValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompareValidator.aspx.designer.cs">
+      <DependentUpon>CompareValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

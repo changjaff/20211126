@@ -11,9 +11,9 @@
     <form id="form1" runat="server">
         <asp:TextBox ID="tb_Id" runat="server"></asp:TextBox>
 
-        <asp:RequiredFieldValidator ID="rfv_Id" runat="server" ErrorMessage="需要輸入" ControlToValidate="tb_Id"></asp:RequiredFieldValidator><br />
+        <asp:RequiredFieldValidator ID="rfv_Id" runat="server" ErrorMessage="需要輸入!" ControlToValidate="tb_Id" ForeColor="Red"></asp:RequiredFieldValidator><br />
 
-        <asp:Button ID="btn_Submit" runat="server" Text="送出" />
+        <asp:Button ID="btn_Submit" runat="server" Text="送出" OnClick="btn_Submit_Click"/>
         <asp:Label ID="lb_Text" runat="server" Text=""></asp:Label>
     </form>
 </body>
