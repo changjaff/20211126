@@ -70,6 +70,7 @@
     <Content Include="CompareValidator.aspx" />
     <Content Include="Global.asax" />
     <Content Include="RangeValidator.aspx" />
+    <Content Include="RegularExpressionValidator.aspx" />
     <Content Include="RequiredField.aspx" />
     <Content Include="Web.config" />
     <Content Include="Wizard.aspx" />
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="RangeValidator.aspx.designer.cs">
       <DependentUpon>RangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegularExpressionValidator.aspx.cs">
+      <DependentUpon>RegularExpressionValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegularExpressionValidator.aspx.designer.cs">
+      <DependentUpon>RegularExpressionValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="RequiredField.aspx.cs">
       <DependentUpon>RequiredField.aspx</DependentUpon>
